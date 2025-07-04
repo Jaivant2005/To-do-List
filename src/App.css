@@ -1,0 +1,75 @@
+#root {
+   min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 3rem;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.form-container, .task-list-container {
+  width: 400px; 
+  max-width: 90vw; 
+  margin: 0 auto; 
+  text-align: center;
+  border: 2px solid #910aec;
+
+}
+
+.task-list-container > div {
+  border: 1px solid #d5dfda;
+  padding: 1rem;
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  
+  
+}
+.task-item {
+ border: 2px solid #000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+  width: 100%; 
+  box-sizing: border-box;
+  text-align: left; 
+}
